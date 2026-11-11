@@ -1,0 +1,10 @@
+{
+  "consommation_2024_twh": 448.9,
+  "pointe_gw": 79.9,
+  "pointe_date": "2023-01-23 19:00:00",
+  "thermosensibilite_gw_par_c": 2.12,
+  "controles_qualite": 18,
+  "lignes_en_quarantaine": 95,
+  "mape_prevision_pct": 2.19,
+  "gain_vs_naif_pct": 61.3
+}
