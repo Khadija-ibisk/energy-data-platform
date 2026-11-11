@@ -64,7 +64,7 @@ def simulate_consumption(rng: np.random.Generator, weather: pd.DataFrame) -> pd.
     for code, _, base, _ in config.REGIONS:
         temp = w.loc[code].reindex(day_str).values
         temp_hourly = temp + 3.5 * np.sin(2 * np.pi * (hour - 9) / 24)
-        heating = 0.028 * np.clip(15 - temp_hourly, 0, None)   # chauffage électrique
+        heating = 0.05 * np.clip(15 - temp_hourly, 0, None)    # chauffage électrique
         cooling = 0.012 * np.clip(temp_hourly - 24, 0, None)   # climatisation
         load = base * daily_shape * calendar * trend * (1 + heating + cooling)
         load *= rng.normal(1, 0.015, len(idx))
