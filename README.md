@@ -1,6 +1,5 @@
 # ⚡ Energy Data Platform
 
-[![CI](https://github.com/Khadija-ibisk/energy-data-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Khadija-ibisk/energy-data-platform/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-lightgrey)
 ![FastAPI](https://img.shields.io/badge/API-FastAPI-009688)
